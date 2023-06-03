@@ -1,0 +1,126 @@
+.mainpage{
+    height: 550px;
+    width: 100%;
+     display: inline; 
+    border: 3px soild rgb(162, 0, 0);
+    /* background-color: red; */
+}
+.nav{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    /* background-color: black; */
+
+}
+.child{
+    display: flex;
+    height: 100px;
+    width: 45%;
+    /* background-color:red; */
+
+}
+.image img{
+    display: flex;
+    height: 100px;
+    width:80%;
+    background-size: 90px;
+    margin-left: 20px;
+    /* background-color: yellow; */
+}
+.content{
+    width: 60%;
+    /* background-color: chartreuse; */
+    
+    color: rgb(18, 69, 114);
+    padding-top: 60px;
+    padding-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.child1{
+
+    height: 100px;
+    width:70%;
+    /* background-color: aqua; */
+    font-size: 11px;
+}
+.content1 li{
+    
+   /* display: inline; */
+    padding-top: 50px;
+    list-style: none;
+}
+.content1  a:hover
+{
+ color: rgb(0, 30, 255);
+}
+.content1{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-evenly;
+
+   
+}
+.content1 a{
+    color: rgb(0, 0, 0);
+text-decoration: none;
+padding-top: 60px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.mainpage1{
+ display: block;
+ position: relative;   
+    position: r;
+    height: px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.image1
+{position: relative;
+    position: absolute;
+    height: 400px;
+    width: 1250px;
+    background-color: rgba(241, 232, 232, 0.698);
+    /* padding-right: 20px; */
+    margin-left: 120px;
+}
+.image2{
+    
+    height: 340px;
+    position: absolute;
+    width: 1160px;
+    background-color:rgb(255, 221, 0);
+    margin-top:90px;
+  margin-left: 4px;
+}
+.image3{
+    
+    height: 290px;
+    position: absolute;
+    width: 550px;
+    background-color:white;
+    margin-top:140px;
+  margin-left:820px;
+ 
+}
+.image3 h1{
+  color: rgb(4, 63, 93);
+  font-size: 35px;
+
+}
+.childimg  img{
+  
+   transform: rotate(90deg);
+   margin-left: 350px;
+
+   height: 430px;
+   width: 250px;
+
+}
+.image3 p{
+ 
+    position: relative;
+    top: 17px;
+}
+
+
